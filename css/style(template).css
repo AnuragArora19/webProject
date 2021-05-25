@@ -1,0 +1,175 @@
+#t {
+    border: 2px blck solid;
+    width: 1000px;
+    margin: auto;
+    background-color: floralwhite;
+}
+
+#top {
+    background-color: white;
+    width: 1000px;
+    border: 2px black solid;
+    height: 60px;
+
+}
+
+#site-name {
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-family: fantasy;
+    font-size: 32px;
+    width: inherit;
+
+}
+
+#logo-1 {
+    background-image: url(pics/samsung-logo-black-transparent.png);
+    height: 90px;
+    width: 120px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#logo-2 {
+    background-image: url(pics/insta.jpg);
+    height: 40px;
+    width: 80px;
+    margin-bottom: 10px;
+    margin-left: 700px;
+    margin-top: -50px;
+    float: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#logo-3 {
+    background-image: url(pics/snapchat.png);
+    height: 50px;
+    width: 100px;
+    margin-bottom: 10px;
+    margin-right: 33px;
+    margin-top: -55px;
+    float: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+#menu-div {
+    width: 1000px;
+    height: 60px;
+    background-color: black;
+    text-align: center;
+}
+/*Parent Selector*/
+.menu {
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    transition: ease all .5s;
+    display: inline-block;
+}
+
+.menu:hover {
+    background-color: black;
+    background-color: burlywood;
+    color: purple;
+    cursor: pointer;
+    border-radius: 20px 0px 20px 0px;
+    transition: ease all .5s;
+}
+
+#image-box {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+}
+
+#pic {
+    background-image: url(pics/samsungg%20pic.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1000px;
+    height: 300px;
+    margin-left: 110px;
+    margin-top: 2px;
+}
+
+#products-menu {
+    height: 60px;
+    width: 1000px;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 2px;
+    border: 1px solid black;
+}
+
+.products {
+    font-family: fantasy;
+    color: black;
+    float: left;
+    font-weight: bolder;
+    width: 333px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 26px;
+
+}
+
+#parent-box {
+    height: 400px;
+    width: 1000px;
+    margin: auto;
+    float: left;
+}
+
+#box-1 {
+    height: 400px;
+    width: 300px;
+    background-image: url(pics/samsung%20s20.webp);
+    background-size: cover;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+#box-2 {
+    height: 400px;
+    width: 350px;
+    background-image: url(pics/samsung%20z.webp);
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#box-3 {
+    height: 400px;
+    width: 350px;
+    background-image: url(pics/samsung%20buds.webp);
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#info{
+    height: 80px;
+    width: 1000px;
+    background-color: bisque;
+    margin: auto;   
+}
+.data{
+    height: 80px;
+    width: 333px;
+    color: black;
+    font-family: arial;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+}
